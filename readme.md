@@ -33,7 +33,7 @@ Docker adminstração de Laravel, Nginx, PHP-FPM, Redis e MySQL.
     git clone https://github.com/laravel/laravel.git src
     ```
 
-4. No arquivo **src/.env** do Laravel, defina variáveis de ambiente para:     
+4. No arquivo **src/.env** do Laravel, defina as seguintes variáveis de ambiente para:     
     
     ```env
     DB_CONNECTION=mysql
@@ -41,12 +41,16 @@ Docker adminstração de Laravel, Nginx, PHP-FPM, Redis e MySQL.
     DB_PORT=3306
     DB_DATABASE=app_development
     DB_USERNAME=root
-    DB_PASSWORD=secret	
+    DB_PASSWORD=secret
+
     ...
+
     CACHE_DRIVER=redis
     QUEUE_CONNECTION=redis
     SESSION_DRIVER=redis
+
     ...
+
     REDIS_HOST=redis 
 	```
 
