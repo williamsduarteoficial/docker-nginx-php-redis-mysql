@@ -1,7 +1,6 @@
 #!/bin/bash
 # Change access rights for the Laravel folders
 # in order to make Laravel able to access
-apt update && \
 # cache and logs folder.
 chgrp -R www-data storage bootstrap/cache && \
 chown -R www-data storage bootstrap/cache && \
